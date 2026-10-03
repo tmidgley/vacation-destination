@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "name": "Orlando",
+        "state": "Florida",
+        "travelType": "family",
+        "description": "Orlando is one of America’s best-known vacation cities, famous for Walt Disney World, Universal Orlando, and a huge concentration of family entertainment. Beyond the theme parks, visitors can explore water parks, interactive museums, shopping districts, restaurants, and nearby natural springs. Its year-round attractions and wide range of hotels make it especially easy to build a trip with activities for children, teens, and adults.",
+        "latitude": 28.5383,
+        "longitude": -81.3792,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 2,
+        "name": "San Diego",
+        "state": "California",
+        "travelType": "family",
+        "description": "San Diego combines Southern California beaches with major attractions such as the San Diego Zoo, Balboa Park, and the waterfront. Families can spend one day exploring museums and gardens and the next swimming, watching sea lions, or visiting coastal neighborhoods. The mild climate and mix of outdoor recreation, wildlife experiences, and city attractions give visitors plenty of options without needing to center the entire trip on one activity.",
+        "latitude": 32.7157,
+        "longitude": -117.1611,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 3,
+        "name": "Anaheim",
+        "state": "California",
+        "travelType": "family",
+        "description": "Anaheim is best known as the home of Disneyland Resort, making it one of the country’s most recognizable family vacation destinations. The surrounding area adds professional sports, shopping, dining, and easy access to beaches and other Southern California attractions. Families can build a trip around the theme parks while still having plenty of opportunities to explore Orange County and the greater Los Angeles region.",
+        "latitude": 33.8366,
+        "longitude": -117.9143,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 4,
+        "name": "Washington",
+        "state": "District of Columbia",
+        "travelType": "family",
+        "description": "Washington, D.C. brings American history to life through famous monuments, memorials, government landmarks, and Smithsonian museums. Many major attractions are free, giving families the chance to explore everything from space and natural history to art and American culture. The National Mall is easy to recognize and rewarding to explore, while neighborhoods, parks, and the waterfront add variety beyond the city’s best-known historic sites.",
+        "latitude": 38.9072,
+        "longitude": -77.0369,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 5,
+        "name": "Yellowstone National Park",
+        "state": "Wyoming",
+        "travelType": "family",
+        "description": "Yellowstone is America’s first national park and one of the country’s most iconic outdoor destinations, known for geysers, hot springs, wildlife, and dramatic landscapes. Visitors can watch Old Faithful erupt, see colorful geothermal features, explore waterfalls and canyons, and look for bison, elk, and other wildlife. Scenic roads and boardwalks make many highlights accessible, while hiking trails offer deeper adventures for families who want to explore farther.",
+        "latitude": 44.428,
+        "longitude": -110.5885,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 6,
+        "name": "Gatlinburg",
+        "state": "Tennessee",
+        "travelType": "family",
+        "description": "Gatlinburg sits at the entrance to Great Smoky Mountains National Park and combines mountain scenery with a busy family-friendly town. Visitors can hike, take scenic drives, ride mountain attractions, visit aquariums and museums, or explore nearby waterfalls and overlooks. The compact downtown provides plenty of entertainment between outdoor adventures, making Gatlinburg a convenient base for families who want both nature and attractions on the same vacation.",
+        "latitude": 35.7143,
+        "longitude": -83.5102,
+        "costLevel": "$$"
+    },
+    {
+        "id": 7,
+        "name": "Branson",
+        "state": "Missouri",
+        "travelType": "family",
+        "description": "Branson is a well-known Ozarks vacation destination built around live entertainment, family attractions, lakes, and outdoor recreation. Visitors can see stage shows, spend a day at Silver Dollar City, explore Table Rock Lake, or enjoy scenic drives through the surrounding hills. With a large selection of family-oriented lodging and activities, Branson offers the feel of a classic American vacation town with something scheduled throughout most of the day.",
+        "latitude": 36.6437,
+        "longitude": -93.2185,
+        "costLevel": "$$"
+    },
+    {
+        "id": 8,
+        "name": "Wisconsin Dells",
+        "state": "Wisconsin",
+        "travelType": "family",
+        "description": "Wisconsin Dells is famous for its concentration of indoor and outdoor water parks, earning it a strong reputation as a family vacation destination. Beyond the slides and pools, visitors can take boat tours through sandstone formations, enjoy amusement attractions, and explore nearby lakes and state parks. The combination of weather-proof indoor entertainment and outdoor activities makes the Dells especially flexible for families traveling with children of different ages.",
+        "latitude": 43.6275,
+        "longitude": -89.7709,
+        "costLevel": "$$"
+    },
+    {
+        "id": 9,
+        "name": "Hershey",
+        "state": "Pennsylvania",
+        "travelType": "family",
+        "description": "Hershey blends its famous chocolate history with a full family resort experience centered around Hersheypark and nearby attractions. Visitors can ride roller coasters, learn about chocolate, explore gardens and museums, and make short trips to other historic sites in central Pennsylvania. The town’s recognizable theme and concentration of attractions make it easy to plan a focused family getaway without spending much of the vacation traveling between activities.",
+        "latitude": 40.2859,
+        "longitude": -76.6502,
+        "costLevel": "$$"
+    },
+    {
+        "id": 10,
+        "name": "Colorado Springs",
+        "state": "Colorado",
+        "travelType": "family",
+        "description": "Colorado Springs offers a mix of Rocky Mountain scenery and accessible attractions beneath the dramatic backdrop of Pikes Peak. Families can explore Garden of the Gods, ride or drive toward mountain viewpoints, visit the zoo, and discover caves, trails, and historic sites. The city works well for travelers who want outdoor adventure without giving up restaurants, museums, and comfortable city amenities, making it a strong introduction to Colorado.",
+        "latitude": 38.8339,
+        "longitude": -104.8214,
+        "costLevel": "$$"
+    },
+    {
+        "id": 11,
+        "name": "Myrtle Beach",
+        "state": "South Carolina",
+        "travelType": "family",
+        "description": "Myrtle Beach is a classic East Coast family destination with a long stretch of Atlantic shoreline and a busy entertainment scene. Visitors can spend the day swimming or relaxing on the beach, then choose from boardwalk attractions, mini golf, live shows, shopping, and restaurants. The large supply of vacation rentals and family activities makes it easy to create either a relaxed beach trip or a packed schedule of entertainment.",
+        "latitude": 33.6891,
+        "longitude": -78.8867,
+        "costLevel": "$$"
+    },
+    {
+        "id": 12,
+        "name": "Destin",
+        "state": "Florida",
+        "travelType": "family",
+        "description": "Destin is known for bright white sand, clear Gulf water, boating, and a relaxed beach-vacation atmosphere on Florida’s Emerald Coast. Families can swim, fish, take dolphin cruises, enjoy water sports, or explore nearby beaches and coastal parks. Harbor areas provide restaurants and entertainment after a day on the water, while the destination’s beautiful shoreline gives visitors a strong reason to spend plenty of time outdoors.",
+        "latitude": 30.3935,
+        "longitude": -86.4958,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 13,
+        "name": "Pigeon Forge",
+        "state": "Tennessee",
+        "travelType": "family",
+        "description": "Pigeon Forge is a lively Smoky Mountains vacation town known for Dollywood, live shows, family attractions, and easy access to outdoor recreation. Visitors can spend time at amusement attractions, explore mountain roads and trails, or make the short trip into Great Smoky Mountains National Park. Its large number of cabins, hotels, restaurants, and entertainment options makes Pigeon Forge especially convenient for families who want a busy vacation schedule.",
+        "latitude": 35.7884,
+        "longitude": -83.5543,
+        "costLevel": "$$"
+    },
+    {
+        "id": 14,
+        "name": "St. Louis",
+        "state": "Missouri",
+        "travelType": "family",
+        "description": "St. Louis offers families a recognizable mix of major landmarks, museums, parks, sports, and several attractions that are free or relatively affordable. The Gateway Arch anchors the city’s riverfront, while the zoo, science center, Forest Park, and City Museum provide very different experiences. Families can combine educational stops with active play and sightseeing, making the city a strong Midwest destination for a multi-day trip.",
+        "latitude": 38.627,
+        "longitude": -90.1994,
+        "costLevel": "$$"
+    },
+    {
+        "id": 15,
+        "name": "Rapid City",
+        "state": "South Dakota",
+        "travelType": "family",
+        "description": "Rapid City is the main vacation base for exploring Mount Rushmore and many of the best-known attractions in South Dakota’s Black Hills. From the city, families can reach Custer State Park, scenic drives, caves, wildlife areas, and the famous presidential monument. Rapid City also has museums, restaurants, and a walkable downtown, making it practical to combine a comfortable home base with several memorable day trips.",
+        "latitude": 44.0805,
+        "longitude": -103.231,
+        "costLevel": "$$"
+    },
+    {
+        "id": 16,
+        "name": "Grand Canyon National Park",
+        "state": "Arizona",
+        "travelType": "family",
+        "description": "Grand Canyon National Park protects one of the most recognizable natural landscapes in the United States, carved over immense stretches of time by the Colorado River. Families can take in the canyon from South Rim viewpoints, walk sections of the Rim Trail, visit historic buildings, and join ranger programs. The enormous scale and changing colors of the canyon make even a short visit memorable, while longer stays allow time for hiking and exploration.",
+        "latitude": 36.1069,
+        "longitude": -112.1129,
+        "costLevel": "$$"
+    },
+    {
+        "id": 17,
+        "name": "Yosemite National Park",
+        "state": "California",
+        "travelType": "family",
+        "description": "Yosemite National Park is famous for towering granite cliffs, waterfalls, giant sequoias, mountain meadows, and some of California’s most recognizable scenery. Families can explore Yosemite Valley, view El Capitan and Half Dome, walk to waterfalls, or take scenic drives to higher elevations. Easy viewpoints and short trails sit alongside more challenging adventures, giving visitors many ways to experience the park regardless of how much hiking they want to do.",
+        "latitude": 37.8651,
+        "longitude": -119.5383,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 18,
+        "name": "Niagara Falls",
+        "state": "New York",
+        "travelType": "family",
+        "description": "Niagara Falls is one of America’s most recognizable natural attractions, where enormous volumes of water plunge over a dramatic series of waterfalls along the Canadian border. Families can view the falls from overlooks, take a boat ride near the mist, explore Niagara Falls State Park, and see the illuminated falls after dark. The powerful scenery provides a memorable centerpiece for a trip, with additional parks and attractions nearby.",
+        "latitude": 43.0962,
+        "longitude": -79.0377,
+        "costLevel": "$$"
+    },
+    {
+        "id": 19,
+        "name": "Outer Banks",
+        "state": "North Carolina",
+        "travelType": "family",
+        "description": "North Carolina’s Outer Banks stretch along a chain of barrier islands known for wide beaches, historic lighthouses, coastal wildlife, and a relaxed vacation atmosphere. Families can swim, kayak, climb dunes, explore maritime history, and visit sites connected to the Wright brothers and early American settlement. Different towns offer distinct experiences, but the region’s beaches and scenic drives make outdoor time the centerpiece of most trips.",
+        "latitude": 35.5585,
+        "longitude": -75.4665,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 20,
+        "name": "San Antonio",
+        "state": "Texas",
+        "travelType": "family",
+        "description": "San Antonio combines Texas history with a lively downtown built around the River Walk, one of the city’s most recognizable attractions. Families can visit the Alamo, explore museums and historic missions, take a river cruise, or spend time at major theme parks and family attractions. The city’s mix of culture, food, history, and entertainment gives visitors plenty to do while keeping many central sights close together.",
+        "latitude": 29.4252,
+        "longitude": -98.4946,
+        "costLevel": "$$"
+    },
+    {
+        "id": 21,
+        "name": "Scottsdale",
+        "state": "Arizona",
+        "travelType": "retired",
+        "description": "Scottsdale is known for Sonoran Desert scenery, upscale resorts, golf courses, galleries, and a polished Old Town. Visitors can explore desert trails, browse art galleries, enjoy Southwestern dining, visit museums, or spend a quiet afternoon at a resort. Warm winters, scenic surroundings, and a strong mix of cultural and outdoor activities make Scottsdale especially appealing for travelers who prefer a comfortable pace.",
+        "latitude": 33.4942,
+        "longitude": -111.9261,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 22,
+        "name": "Palm Springs",
+        "state": "California",
+        "travelType": "retired",
+        "description": "Palm Springs is known for mid-century architecture, desert sunshine, mountain views, golf, and resort living. Visitors can ride the aerial tramway, tour distinctive neighborhoods, relax by a pool, explore nearby desert landscapes, or enjoy downtown restaurants and shops. Its compact center and long history as a desert retreat make Palm Springs an easy place to combine sightseeing with genuine downtime.",
+        "latitude": 33.8303,
+        "longitude": -116.5453,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 23,
+        "name": "Santa Fe",
+        "state": "New Mexico",
+        "travelType": "retired",
+        "description": "Santa Fe is known for adobe architecture, Native American and Southwestern art, historic plazas, museums, and distinctive regional food. Visitors can walk around the historic center, visit galleries and museums, explore nearby pueblos and landscapes, or sample New Mexican cuisine. The city’s deep cultural identity and slower rhythm reward travelers who enjoy history, art, architecture, and thoughtful exploration. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 35.687,
+        "longitude": -105.9378,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 24,
+        "name": "Sedona",
+        "state": "Arizona",
+        "travelType": "retired",
+        "description": "Sedona is known for dramatic red-rock formations, desert scenery, galleries, resorts, and scenic drives. Visitors can hike among the rocks, drive through Oak Creek Canyon, browse local shops, visit viewpoints, or watch the cliffs change color near sunset. Sedona combines memorable scenery with a relaxed small-town atmosphere, offering plenty to experience without requiring a packed schedule. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 34.8697,
+        "longitude": -111.761,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 25,
+        "name": "Charleston",
+        "state": "South Carolina",
+        "travelType": "retired",
+        "description": "Charleston is known for historic architecture, cobblestone streets, Lowcountry cuisine, gardens, and a beautiful waterfront. Visitors can tour historic homes, walk through the old city, visit nearby plantations and beaches, explore museums, or enjoy the local food scene. Charleston’s layered history and walkable historic district make it a rewarding destination for travelers who like culture, scenery, and leisurely sightseeing. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 32.7765,
+        "longitude": -79.9311,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 26,
+        "name": "Savannah",
+        "state": "Georgia",
+        "travelType": "retired",
+        "description": "Savannah is known for oak-shaded public squares, historic homes, gardens, riverfront streets, and Southern architecture. Visitors can take a trolley or walking tour, explore museums, relax in Forsyth Park, browse shops, or make a day trip to nearby Tybee Island. The compact historic district encourages visitors to slow down and notice the city’s architecture, stories, greenery, and distinctive atmosphere. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 32.0809,
+        "longitude": -81.0912,
+        "costLevel": "$$"
+    },
+    {
+        "id": 27,
+        "name": "Asheville",
+        "state": "North Carolina",
+        "travelType": "retired",
+        "description": "Asheville is known for Blue Ridge Mountain scenery, the Biltmore Estate, arts, craft traditions, and a lively food scene. Visitors can tour Biltmore, drive the Blue Ridge Parkway, visit galleries, explore downtown, or take short hikes in the surrounding mountains. Asheville offers a comfortable balance between culture and nature, with enough variety for several days of sightseeing without the pace of a major city.",
+        "latitude": 35.5951,
+        "longitude": -82.5515,
+        "costLevel": "$$"
+    },
+    {
+        "id": 28,
+        "name": "Monterey",
+        "state": "California",
+        "travelType": "retired",
+        "description": "Monterey is known for Pacific coastline, marine wildlife, the Monterey Bay Aquarium, Cannery Row, and scenic drives. Visitors can visit the aquarium, watch for sea otters, drive the coast, explore historic sites, or continue toward Carmel and Big Sur. The cool coastal setting and concentration of memorable sights make Monterey a strong choice for travelers who enjoy wildlife, scenery, and relaxed exploration.",
+        "latitude": 36.6002,
+        "longitude": -121.8947,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 29,
+        "name": "Sarasota",
+        "state": "Florida",
+        "travelType": "retired",
+        "description": "Sarasota is known for Gulf Coast beaches, cultural institutions, gardens, performing arts, and warm weather. Visitors can relax on nearby beaches, visit museums and botanical gardens, attend a performance, browse downtown, or enjoy waterfront dining. Sarasota pairs a beach vacation with more arts and culture than many coastal destinations, giving visitors several ways to spend a slower-paced trip. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 27.3364,
+        "longitude": -82.5307,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 30,
+        "name": "St. Augustine",
+        "state": "Florida",
+        "travelType": "retired",
+        "description": "St. Augustine is known for centuries of history, Spanish colonial landmarks, coastal scenery, museums, and walkable streets. Visitors can tour Castillo de San Marcos, explore the historic district, visit museums, take a scenic cruise, or spend time at nearby beaches. Its compact center and unusually deep history make St. Augustine easy to explore at a relaxed pace while still offering plenty of variety.",
+        "latitude": 29.9012,
+        "longitude": -81.3124,
+        "costLevel": "$$"
+    },
+    {
+        "id": 31,
+        "name": "Santa Barbara",
+        "state": "California",
+        "travelType": "retired",
+        "description": "Santa Barbara is known for Mediterranean-style architecture, beaches, gardens, mountains, and a scenic California coastline. Visitors can walk the waterfront, explore the historic mission, visit gardens, enjoy local restaurants, or take short trips into nearby wine country. Santa Barbara combines coastal beauty with an attractive downtown and cultural landmarks, creating a polished getaway that feels relaxed rather than rushed. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 34.4208,
+        "longitude": -119.6982,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 32,
+        "name": "Bar Harbor",
+        "state": "Maine",
+        "travelType": "retired",
+        "description": "Bar Harbor is known for a classic Maine harbor setting and its location beside Acadia National Park. Visitors can explore Acadia’s carriage roads and viewpoints, take a boat tour, eat local seafood, browse downtown, or drive the park’s scenic roads. The combination of a walkable coastal town and one of New England’s best-known national parks gives visitors an easy mix of nature and small-town charm.",
+        "latitude": 44.3876,
+        "longitude": -68.2039,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 33,
+        "name": "Hilton Head Island",
+        "state": "South Carolina",
+        "travelType": "retired",
+        "description": "Hilton Head Island is known for wide beaches, golf courses, bike paths, coastal marshes, and a quiet resort atmosphere. Visitors can cycle across the island, relax on the beach, play golf, take a wildlife cruise, or enjoy seafood near the water. Hilton Head is designed for an unhurried vacation, with outdoor activities and resort comforts spread across a scenic Lowcountry setting.",
+        "latitude": 32.2163,
+        "longitude": -80.7526,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 34,
+        "name": "Naples",
+        "state": "Florida",
+        "travelType": "retired",
+        "description": "Naples is known for Gulf beaches, golf, shopping, gardens, calm water, and colorful sunsets. Visitors can walk the pier and beaches, visit botanical gardens, explore nearby nature preserves, browse shops, or enjoy waterfront dining. The city’s warm-weather setting and polished but relaxed atmosphere make it a popular place for travelers who want sunshine, nature, and comfortable amenities. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 26.1423,
+        "longitude": -81.7948,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 35,
+        "name": "Tucson",
+        "state": "Arizona",
+        "travelType": "retired",
+        "description": "Tucson is known for Sonoran Desert landscapes, distinctive Southwestern food, mountain views, museums, and rich regional history. Visitors can explore Saguaro National Park, visit the Arizona-Sonora Desert Museum, drive into the mountains, tour historic areas, or sample local cuisine. Tucson feels less resort-focused than some Arizona destinations, offering a deeper sense of desert landscape, culture, and everyday Southwestern life. It also offers enough variety to make a multi-day visit feel complete without turning every day into a packed sightseeing schedule.",
+        "latitude": 32.2226,
+        "longitude": -110.9747,
+        "costLevel": "$$"
+    },
+    {
+        "id": 36,
+        "name": "Williamsburg",
+        "state": "Virginia",
+        "travelType": "retired",
+        "description": "Williamsburg is known for living history, restored colonial buildings, museums, gardens, and nearby historic landmarks. Visitors can walk through Colonial Williamsburg, visit Jamestown and Yorktown, explore museums, dine in the historic area, or enjoy nearby parks. The region offers an unusually immersive look at early American history while still providing comfortable lodging, attractive scenery, and plenty of places to explore at an easy pace.",
+        "latitude": 37.2707,
+        "longitude": -76.7075,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 37,
+        "name": "Mackinac Island",
+        "state": "Michigan",
+        "travelType": "retired",
+        "description": "Mackinac Island is known for car-free streets, historic hotels, lake views, bicycles, horse-drawn carriages, and Victorian charm. Visitors can bike around the island, tour historic Fort Mackinac, browse downtown, relax on hotel porches, or enjoy views across Lake Huron. Without normal automobile traffic, the island has a distinctive slower rhythm that makes the journey feel different from a typical city vacation.",
+        "latitude": 45.8492,
+        "longitude": -84.6189,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 38,
+        "name": "Cape Cod",
+        "state": "Massachusetts",
+        "travelType": "retired",
+        "description": "Cape Cod is known for Atlantic beaches, lighthouses, seafood, historic villages, and classic New England coastal scenery. Visitors can visit small towns, walk beaches, tour lighthouses, take a whale-watching trip, or explore the Cape’s museums and nature areas. The region’s scenic roads and waterfront communities make it well suited to travelers who enjoy exploring gradually rather than staying in one busy center.",
+        "latitude": 41.6688,
+        "longitude": -70.2962,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 39,
+        "name": "Newport",
+        "state": "Rhode Island",
+        "travelType": "retired",
+        "description": "Newport is known for Gilded Age mansions, sailing history, dramatic ocean views, and an attractive waterfront. Visitors can tour historic mansions, walk the Cliff Walk, explore downtown, take a harbor cruise, or relax beside the coast. Newport packs major historic and scenic attractions into a relatively small area, making it easy to enjoy memorable sightseeing without spending much of the trip in transit.",
+        "latitude": 41.4901,
+        "longitude": -71.3128,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 40,
+        "name": "Traverse City",
+        "state": "Michigan",
+        "travelType": "retired",
+        "description": "Traverse City is known for Lake Michigan beaches, vineyards, cherry orchards, scenic drives, and access to Sleeping Bear Dunes. Visitors can explore the dunes, visit waterfront parks, drive through nearby peninsulas, browse downtown, or sample food and wine from the region. Traverse City combines a comfortable small-city base with some of northern Michigan’s best-known landscapes, making it especially enjoyable during warmer months and fall.",
+        "latitude": 44.7631,
+        "longitude": -85.6206,
+        "costLevel": "$$"
+    },
+    {
+        "id": 41,
+        "name": "Albuquerque",
+        "state": "New Mexico",
+        "travelType": "budget",
+        "description": "Albuquerque is known for Route 66 history, Southwestern culture, mountain views, museums, and New Mexican food. Visitors can explore Old Town, ride the Sandia Peak tramway, visit museums, walk along the Rio Grande, or use the city as a base for nearby day trips. Albuquerque offers a distinctive Southwest experience with many outdoor and cultural options that do not require the prices of a major resort destination.",
+        "latitude": 35.0844,
+        "longitude": -106.6504,
+        "costLevel": "$"
+    },
+    {
+        "id": 42,
+        "name": "Kansas City",
+        "state": "Missouri",
+        "travelType": "budget",
+        "description": "Kansas City is known for barbecue, jazz history, fountains, museums, sports, and an energetic downtown. Visitors can visit major museums, explore historic neighborhoods, sample famous barbecue, see live music, or spend time around the Country Club Plaza and riverfront. Kansas City delivers recognizable food and culture with a broad selection of free or moderately priced attractions, making it a strong value for a city vacation.",
+        "latitude": 39.0997,
+        "longitude": -94.5786,
+        "costLevel": "$"
+    },
+    {
+        "id": 43,
+        "name": "Memphis",
+        "state": "Tennessee",
+        "travelType": "budget",
+        "description": "Memphis is known for blues, soul, rock-and-roll history, barbecue, Beale Street, and the Mississippi River. Visitors can visit Graceland, explore music museums, hear live performances, walk along the riverfront, or sample the city’s famous barbecue. Memphis has a clear identity and major attractions, but travelers can still build a memorable trip around music, food, and history without relying on luxury experiences.",
+        "latitude": 35.1495,
+        "longitude": -90.049,
+        "costLevel": "$"
+    },
+    {
+        "id": 44,
+        "name": "Louisville",
+        "state": "Kentucky",
+        "travelType": "budget",
+        "description": "Louisville is known for the Kentucky Derby, bourbon culture, historic neighborhoods, museums, parks, and Ohio River scenery. Visitors can tour Churchill Downs, visit museums, explore local neighborhoods, walk waterfront parks, or sample the city’s growing food scene. Louisville offers enough nationally recognized attractions to anchor a vacation while remaining more manageable and often more affordable than many larger American cities.",
+        "latitude": 38.2527,
+        "longitude": -85.7585,
+        "costLevel": "$$"
+    },
+    {
+        "id": 45,
+        "name": "Cleveland",
+        "state": "Ohio",
+        "travelType": "budget",
+        "description": "Cleveland is known for Lake Erie, the Rock and Roll Hall of Fame, major museums, historic markets, and professional sports. Visitors can explore the lakefront, visit museums, browse the West Side Market, walk through distinctive neighborhoods, or catch a game. Cleveland’s mix of cultural institutions and waterfront attractions gives travelers plenty to fill a weekend or longer trip without the typical costs of the largest U.S. cities.",
+        "latitude": 41.4993,
+        "longitude": -81.6944,
+        "costLevel": "$$"
+    },
+    {
+        "id": 46,
+        "name": "Pittsburgh",
+        "state": "Pennsylvania",
+        "travelType": "budget",
+        "description": "Pittsburgh is known for dramatic river views, bridges, museums, sports, historic neighborhoods, and steep hillside overlooks. Visitors can ride an incline for skyline views, visit museums, explore the Strip District, walk riverfront trails, or see the city from Mount Washington. Pittsburgh’s compact attractions and strong neighborhood character make it a rewarding city break that can offer good value compared with larger East Coast destinations.",
+        "latitude": 40.4406,
+        "longitude": -79.9959,
+        "costLevel": "$$"
+    },
+    {
+        "id": 47,
+        "name": "Oklahoma City",
+        "state": "Oklahoma",
+        "travelType": "budget",
+        "description": "Oklahoma City is known for Western heritage, museums, revitalized entertainment districts, parks, and a growing food scene. Visitors can visit the National Cowboy museum, explore Bricktown, walk through Scissortail Park, learn at the memorial museum, or enjoy local restaurants. The city’s major attractions are spread across an approachable metro area, giving travelers a substantial vacation experience without requiring a luxury-level budget.",
+        "latitude": 35.4676,
+        "longitude": -97.5164,
+        "costLevel": "$"
+    },
+    {
+        "id": 48,
+        "name": "Chattanooga",
+        "state": "Tennessee",
+        "travelType": "budget",
+        "description": "Chattanooga is known for Tennessee River scenery, Lookout Mountain, outdoor recreation, and a revitalized downtown. Visitors can walk the riverfront, visit the aquarium, explore mountain attractions, hike nearby trails, or cross the Walnut Street Bridge. Chattanooga combines recognizable attractions with free outdoor spaces and scenic experiences, making it particularly appealing to travelers who want an active trip while keeping costs under control.",
+        "latitude": 35.0456,
+        "longitude": -85.3097,
+        "costLevel": "$$"
+    },
+    {
+        "id": 49,
+        "name": "Knoxville",
+        "state": "Tennessee",
+        "travelType": "budget",
+        "description": "Knoxville is known for a lively downtown, Tennessee River setting, college-town energy, parks, and access to the Smoky Mountains. Visitors can explore Market Square, walk riverfront areas, visit museums, enjoy local restaurants, or use the city as a base for nearby mountain adventures. Knoxville offers a practical mix of urban attractions and outdoor access, with many experiences centered on public spaces, neighborhoods, and regional scenery.",
+        "latitude": 35.9606,
+        "longitude": -83.9207,
+        "costLevel": "$"
+    },
+    {
+        "id": 50,
+        "name": "Indianapolis",
+        "state": "Indiana",
+        "travelType": "budget",
+        "description": "Indianapolis is known for the Indianapolis 500, major museums, sports, monuments, trails, and a walkable downtown. Visitors can visit the speedway, explore museums, walk the canal, see monuments, or spend time in the city’s cultural districts. Indianapolis has several nationally recognizable attractions while generally offering a more approachable trip than larger nearby cities, making it a useful choice for travelers watching their overall vacation costs.",
+        "latitude": 39.7684,
+        "longitude": -86.1581,
+        "costLevel": "$$"
+    },
+    {
+        "id": 51,
+        "name": "Milwaukee",
+        "state": "Wisconsin",
+        "travelType": "budget",
+        "description": "Milwaukee is known for Lake Michigan, brewing history, festivals, museums, markets, and a strong food culture. Visitors can walk the lakefront, visit the Milwaukee Art Museum, explore the Public Market, tour historic brewing sites, or enjoy neighborhood restaurants. Milwaukee provides a lively Great Lakes city experience with plenty of public spaces and cultural attractions, often at a lower overall cost than nearby Chicago.",
+        "latitude": 43.0389,
+        "longitude": -87.9065,
+        "costLevel": "$$"
+    },
+    {
+        "id": 52,
+        "name": "Cincinnati",
+        "state": "Ohio",
+        "travelType": "budget",
+        "description": "Cincinnati is known for Ohio River views, historic neighborhoods, museums, sports, distinctive architecture, and a famous zoo. Visitors can explore the riverfront, visit museums, walk through Over-the-Rhine, see the zoo, or enjoy local food traditions. Cincinnati combines major attractions with compact neighborhoods and accessible public spaces, giving budget-conscious travelers enough variety for a full city vacation without needing expensive entertainment every day.",
+        "latitude": 39.1031,
+        "longitude": -84.512,
+        "costLevel": "$$"
+    },
+    {
+        "id": 53,
+        "name": "Detroit",
+        "state": "Michigan",
+        "travelType": "budget",
+        "description": "Detroit is known for automotive history, Motown music, architecture, sports, museums, and a renewed downtown riverfront. Visitors can visit the Detroit Institute of Arts, explore Motown history, walk the riverfront, see historic buildings, or make a trip to the Henry Ford. Detroit’s major cultural institutions and uniquely American history give visitors strong reasons to come while offering many experiences that can fit a moderate travel budget.",
+        "latitude": 42.3314,
+        "longitude": -83.0458,
+        "costLevel": "$$"
+    },
+    {
+        "id": 54,
+        "name": "Baltimore",
+        "state": "Maryland",
+        "travelType": "budget",
+        "description": "Baltimore is known for the Inner Harbor, maritime history, distinctive neighborhoods, museums, seafood, and professional sports. Visitors can explore harbor attractions, visit Fort McHenry, walk historic neighborhoods, see museums, or try the city’s famous crab dishes. Baltimore’s concentration of historic and waterfront attractions makes it possible to plan a substantial East Coast city trip without the price level associated with nearby Washington or New York.",
+        "latitude": 39.2904,
+        "longitude": -76.6122,
+        "costLevel": "$$"
+    },
+    {
+        "id": 55,
+        "name": "Phoenix",
+        "state": "Arizona",
+        "travelType": "budget",
+        "description": "Phoenix is known for Sonoran Desert scenery, hiking, museums, sports, Southwestern food, and year-round sunshine. Visitors can hike city mountain preserves, explore museums, visit desert gardens, enjoy local restaurants, or make day trips around the Valley. Phoenix offers many outdoor experiences that cost little or nothing, and its large metro area provides a wide range of lodging and dining choices for travelers trying to control expenses.",
+        "latitude": 33.4484,
+        "longitude": -112.074,
+        "costLevel": "$$"
+    },
+    {
+        "id": 56,
+        "name": "Dallas",
+        "state": "Texas",
+        "travelType": "budget",
+        "description": "Dallas is known for major museums, sports, Texas history, shopping, diverse neighborhoods, and a large restaurant scene. Visitors can explore the Arts District, visit historic sites, walk city parks, see museums, or experience the food and culture of different neighborhoods. Dallas provides big-city variety with many free museums, public spaces, and moderately priced options, making it possible to tailor the trip to a range of budgets.",
+        "latitude": 32.7767,
+        "longitude": -96.797,
+        "costLevel": "$$"
+    },
+    {
+        "id": 57,
+        "name": "New Orleans",
+        "state": "Louisiana",
+        "travelType": "budget",
+        "description": "New Orleans is known for jazz, Creole and Cajun food, historic architecture, festivals, and one of America’s most distinctive cultural identities. Visitors can walk the French Quarter, hear live music, ride a streetcar, explore historic neighborhoods, visit museums, or enjoy local food. With careful lodging choices, much of the city’s atmosphere comes from walking, music, architecture, and public spaces, giving budget-minded visitors plenty to experience.",
+        "latitude": 29.9511,
+        "longitude": -90.0715,
+        "costLevel": "$$"
+    },
+    {
+        "id": 58,
+        "name": "Salt Lake City",
+        "state": "Utah",
+        "travelType": "budget",
+        "description": "Salt Lake City is known for Wasatch Mountain views, a clean downtown, historic landmarks, museums, and quick access to outdoor recreation. Visitors can explore Temple Square and downtown landmarks, visit museums, hike nearby trails, drive into the canyons, or use the city as a base for mountain day trips. The combination of free outdoor scenery and an easy-to-navigate urban center makes Salt Lake City a flexible choice for travelers seeking value.",
+        "latitude": 40.7608,
+        "longitude": -111.891,
+        "costLevel": "$$"
+    },
+    {
+        "id": 59,
+        "name": "Virginia Beach",
+        "state": "Virginia",
+        "travelType": "budget",
+        "description": "Virginia Beach is known for a broad Atlantic beach, a long oceanfront boardwalk, coastal parks, an aquarium, and easygoing seaside attractions. Visitors can spend the day on the sand, bike the boardwalk, visit the aquarium, explore First Landing State Park, or enjoy seafood near the water. With free beach time at the center of the trip and a wide range of lodging choices, Virginia Beach can work well for travelers trying to control vacation costs.",
+        "latitude": 36.8529,
+        "longitude": -75.978,
+        "costLevel": "$$"
+    },
+    {
+        "id": 60,
+        "name": "Daytona Beach",
+        "state": "Florida",
+        "travelType": "budget",
+        "description": "Daytona Beach is known for a famous Atlantic shoreline, motorsports history, a broad beach, boardwalk attractions, and a casual Florida vacation atmosphere. Visitors can relax on the beach, visit Daytona International Speedway, walk the boardwalk, explore nearby parks, or take short coastal drives. Daytona offers a recognizable Florida beach experience with many moderately priced lodging and entertainment options, making it a practical alternative to some of the state’s more expensive resort areas.",
+        "latitude": 29.2108,
+        "longitude": -81.0228,
+        "costLevel": "$$"
+    },
+    {
+        "id": 61,
+        "name": "New York City",
+        "state": "New York",
+        "travelType": "solo",
+        "description": "New York City is known for world-famous museums, Broadway, Central Park, distinctive neighborhoods, food, architecture, and nonstop city energy. Visitors can explore by subway and on foot, visit major landmarks, spend hours in museums, try food from around the world, or simply wander through different neighborhoods. The enormous number of things to do and strong public transportation make New York especially flexible for independent travelers who want to set their own pace.",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 62,
+        "name": "Seattle",
+        "state": "Washington",
+        "travelType": "solo",
+        "description": "Seattle is known for Pike Place Market, coffee culture, waterfront views, museums, ferries, and a dramatic setting between water and mountains. Visitors can walk through downtown and the market, ride a ferry, explore museums, visit neighborhoods, or take day trips toward mountains and national parks. Seattle’s transit, walkable central areas, and mix of indoor and outdoor attractions give solo travelers many ways to build a trip around their own interests.",
+        "latitude": 47.6062,
+        "longitude": -122.3321,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 63,
+        "name": "Portland",
+        "state": "Oregon",
+        "travelType": "solo",
+        "description": "Portland is known for food carts, independent bookstores, gardens, bike culture, creative neighborhoods, and easy access to Pacific Northwest scenery. Visitors can browse Powell’s Books, explore parks and gardens, sample food carts, visit neighborhood shops, or take day trips into the Columbia River Gorge. Portland’s casual atmosphere and strong neighborhood culture make it comfortable to explore alone, with plenty of places where lingering over coffee, food, or a walk feels natural.",
+        "latitude": 45.5152,
+        "longitude": -122.6784,
+        "costLevel": "$$"
+    },
+    {
+        "id": 64,
+        "name": "Boston",
+        "state": "Massachusetts",
+        "travelType": "solo",
+        "description": "Boston is known for American history, universities, museums, walkable neighborhoods, waterfront scenery, and compact historic streets. Visitors can follow the Freedom Trail, explore museums, walk along the Charles River, visit historic sites, or use public transit to discover different neighborhoods. Boston’s dense center and extensive transit make many of its major attractions easy to reach without a car, which is especially convenient for an independent traveler.",
+        "latitude": 42.3601,
+        "longitude": -71.0589,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 65,
+        "name": "Chicago",
+        "state": "Illinois",
+        "travelType": "solo",
+        "description": "Chicago is known for bold architecture, world-class museums, Lake Michigan, deep food traditions, music, and an impressive skyline. Visitors can take an architecture cruise, walk the lakefront, explore museums, visit observation decks, hear live music, or discover the city’s many neighborhoods. Chicago offers the scale and variety of a major world city while remaining relatively easy to navigate by transit, making it a rewarding place to explore independently.",
+        "latitude": 41.8781,
+        "longitude": -87.6298,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 66,
+        "name": "Denver",
+        "state": "Colorado",
+        "travelType": "solo",
+        "description": "Denver is known for Rocky Mountain access, breweries, museums, sports, parks, and a lively downtown. Visitors can explore downtown and RiNo, visit museums, catch a game, walk city parks, or take day trips into the mountains. Denver gives solo travelers the freedom to combine city experiences with outdoor adventure, and its major neighborhoods and attractions provide plenty to do even without leaving the metro area.",
+        "latitude": 39.7392,
+        "longitude": -104.9903,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 67,
+        "name": "Austin",
+        "state": "Texas",
+        "travelType": "solo",
+        "description": "Austin is known for live music, food trucks, barbecue, swimming holes, nightlife, and a creative Texas identity. Visitors can hear live music, explore South Congress, walk around Lady Bird Lake, sample local food, or cool off at Barton Springs. Austin’s casual social atmosphere and steady calendar of music and events make it easy for solo visitors to stay busy while choosing exactly how structured or spontaneous they want the trip to be.",
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "costLevel": "$$"
+    },
+    {
+        "id": 68,
+        "name": "Nashville",
+        "state": "Tennessee",
+        "travelType": "solo",
+        "description": "Nashville is known for country music, live performance venues, museums, Southern food, and an energetic downtown. Visitors can tour music museums, hear performers in small venues, explore neighborhoods, visit historic sites, or spend an evening around Broadway. Because music and entertainment are available throughout the city, Nashville gives independent travelers an easy focus for the trip while still offering history, food, parks, and neighborhoods to explore during the day.",
+        "latitude": 36.1627,
+        "longitude": -86.7816,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 69,
+        "name": "Philadelphia",
+        "state": "Pennsylvania",
+        "travelType": "solo",
+        "description": "Philadelphia is known for foundational American history, major art museums, markets, distinctive neighborhoods, and a highly walkable center. Visitors can visit Independence Hall, see the Liberty Bell, explore museums, eat at Reading Terminal Market, or walk through historic streets and public squares. Philadelphia’s compact core and extensive transit make many major attractions easy to reach alone, while its history and food provide clear themes for building a flexible itinerary.",
+        "latitude": 39.9526,
+        "longitude": -75.1652,
+        "costLevel": "$$"
+    },
+    {
+        "id": 70,
+        "name": "Miami",
+        "state": "Florida",
+        "travelType": "solo",
+        "description": "Miami is known for South Beach, Art Deco architecture, Latin American and Caribbean culture, nightlife, art, and tropical weather. Visitors can relax on the beach, explore Little Havana, visit art districts and museums, walk Ocean Drive, or sample the city’s diverse food scene. Miami’s energetic neighborhoods and strong visual identity give solo travelers plenty to experience, whether they prefer beaches and daytime sightseeing or restaurants, music, and nightlife after dark.",
+        "latitude": 25.7617,
+        "longitude": -80.1918,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 71,
+        "name": "San Francisco",
+        "state": "California",
+        "travelType": "solo",
+        "description": "San Francisco is known for the Golden Gate Bridge, steep streets, cable cars, waterfront neighborhoods, diverse food, and dramatic bay scenery. Visitors can ride public transit, walk across famous neighborhoods, visit Alcatraz, explore museums, see the waterfront, or take a ferry across the bay. San Francisco packs many recognizable sights into a relatively compact area, and its transit system makes it possible for solo travelers to explore without relying on a car.",
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 72,
+        "name": "Honolulu",
+        "state": "Hawaii",
+        "travelType": "solo",
+        "description": "Honolulu is known for Waikiki Beach, Hawaiian history and culture, Diamond Head, ocean activities, and a dramatic tropical setting. Visitors can swim or surf at Waikiki, hike Diamond Head, visit historic sites and museums, enjoy local food, or explore other parts of Oahu. Honolulu combines a major city with immediate access to beaches and outdoor recreation, giving independent travelers the freedom to alternate between structured sightseeing and relaxed time by the ocean.",
+        "latitude": 21.3099,
+        "longitude": -157.8581,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 73,
+        "name": "Los Angeles",
+        "state": "California",
+        "travelType": "solo",
+        "description": "Los Angeles is known for Hollywood, beaches, film history, museums, diverse neighborhoods, food, and a vast Southern California cultural scene. Visitors can visit major museums, explore Hollywood, spend time at the coast, discover different neighborhoods, attend a show, or tour famous film and television landmarks. Los Angeles requires more planning than a compact city, but its enormous variety lets solo travelers build a trip around nearly any interest.",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 74,
+        "name": "Atlanta",
+        "state": "Georgia",
+        "travelType": "solo",
+        "description": "Atlanta is known for civil rights history, major museums, music, sports, diverse neighborhoods, and one of the South’s largest urban centers. Visitors can visit the Martin Luther King Jr. historic district, explore museums and markets, walk the BeltLine, see an aquarium, or discover neighborhood restaurants. Atlanta’s major attractions and growing network of walkable districts give solo travelers many choices, especially those interested in history, culture, food, and modern Southern city life.",
+        "latitude": 33.749,
+        "longitude": -84.388,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 75,
+        "name": "Boulder",
+        "state": "Colorado",
+        "travelType": "solo",
+        "description": "Boulder is known for Flatirons mountain scenery, hiking, cycling, a lively pedestrian downtown, and an outdoors-focused culture. Visitors can hike directly from town, walk Pearl Street, explore local restaurants, bike along trails, or make short trips into the foothills. Boulder’s compact center and immediate access to nature make it an appealing solo destination for travelers who want outdoor activity without giving up the convenience of restaurants, shops, and city amenities.",
+        "latitude": 40.015,
+        "longitude": -105.2705,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 76,
+        "name": "Minneapolis",
+        "state": "Minnesota",
+        "travelType": "solo",
+        "description": "Minneapolis is known for lakes, parks, bike trails, major museums, theaters, and a lively downtown connected to St. Paul. Visitors can walk around the Chain of Lakes, visit art museums, explore the riverfront, bike city trails, or discover restaurants and shops in different neighborhoods. Minneapolis offers enough culture and outdoor space to fill several days, while its organized layout and transit options make many areas approachable for someone traveling independently.",
+        "latitude": 44.9778,
+        "longitude": -93.265,
+        "costLevel": "$$"
+    },
+    {
+        "id": 77,
+        "name": "Boise",
+        "state": "Idaho",
+        "travelType": "solo",
+        "description": "Boise is known for a compact downtown, the Boise River Greenbelt, foothill trails, Basque culture, and an outdoors-oriented lifestyle. Visitors can walk or bike the Greenbelt, explore downtown, hike nearby foothills, visit museums, or experience the city’s Basque Block and local restaurants. Boise’s manageable size makes it comfortable for solo travelers, while the quick transition from downtown streets to trails and river scenery provides plenty of variety without complicated planning.",
+        "latitude": 43.615,
+        "longitude": -116.2023,
+        "costLevel": "$$"
+    },
+    {
+        "id": 78,
+        "name": "San Juan",
+        "state": "Puerto Rico",
+        "travelType": "solo",
+        "description": "San Juan is known for colorful Spanish colonial streets, historic forts, Caribbean beaches, Puerto Rican food, and a lively waterfront atmosphere. Visitors can walk through Old San Juan, tour El Morro, relax on nearby beaches, visit museums, sample local food, or take day trips beyond the capital. San Juan gives solo travelers a distinctive blend of history, city life, and tropical scenery, with many major attractions concentrated in areas that are rewarding to explore on foot.",
+        "latitude": 18.4655,
+        "longitude": -66.1057,
+        "costLevel": "$$"
+    },
+    {
+        "id": 79,
+        "name": "Las Vegas",
+        "state": "Nevada",
+        "travelType": "solo",
+        "description": "Las Vegas is known for spectacular resorts, live entertainment, elaborate attractions, restaurants, nightlife, and easy access to the Mojave Desert. Visitors can walk the Strip, see shows, explore themed resorts, visit museums, experience downtown, or take day trips to Red Rock Canyon and Hoover Dam. Las Vegas is built around visitors, so solo travelers can easily fill their time with scheduled entertainment or explore independently without needing a traditional sightseeing itinerary.",
+        "latitude": 36.1699,
+        "longitude": -115.1398,
+        "costLevel": "$$"
+    },
+    {
+        "id": 80,
+        "name": "Portland",
+        "state": "Maine",
+        "travelType": "solo",
+        "description": "Portland is known for a compact historic waterfront, excellent seafood, lighthouses, breweries, and classic Maine coastal scenery. Visitors can walk the Old Port, sample local food, take a harbor cruise, visit nearby lighthouses, or use the city as a base for coastal day trips. Portland is small enough to feel manageable alone but offers enough food, culture, and scenery to fill several days without requiring a tightly planned itinerary.",
+        "latitude": 43.6591,
+        "longitude": -70.2568,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 81,
+        "name": "Napa",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Napa is known for vineyards, renowned restaurants, scenic countryside, tasting rooms, spas, and luxury resorts. Visitors can drive through wine country, visit vineyards, enjoy long meals, relax at a spa, or take in the valley from scenic overlooks. Napa’s combination of beautiful landscapes, food, and leisurely experiences has made it one of America’s classic couples destinations, especially for travelers looking to slow down and enjoy the setting together.",
+        "latitude": 38.2975,
+        "longitude": -122.2869,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 82,
+        "name": "Maui",
+        "state": "Hawaii",
+        "travelType": "couples",
+        "description": "Maui is known for beautiful beaches, volcanic landscapes, waterfalls, resort areas, and the famous Road to Hana. Visitors can snorkel, watch sunrise from Haleakala, drive through rainforest scenery, relax on the beach, or enjoy oceanfront dining. Maui gives couples a rare combination of adventure and relaxation, with enough natural variety to make each day feel different while still leaving plenty of time for a quiet tropical getaway.",
+        "latitude": 20.7984,
+        "longitude": -156.3319,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 83,
+        "name": "Kauai",
+        "state": "Hawaii",
+        "travelType": "couples",
+        "description": "Kauai is known for lush mountains, waterfalls, beaches, the Na Pali Coast, and some of Hawaii’s most dramatic natural scenery. Visitors can hike canyon trails, take a boat trip along the coast, relax on quiet beaches, explore small towns, or drive through tropical landscapes. Kauai feels less urban than many major island destinations, making it especially appealing to couples who want scenery, outdoor adventure, and time away from a busy city atmosphere.",
+        "latitude": 22.0964,
+        "longitude": -159.5261,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 84,
+        "name": "Carmel-by-the-Sea",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Carmel-by-the-Sea is known for storybook architecture, art galleries, a beautiful beach, cozy restaurants, and immediate access to California’s dramatic central coast. Visitors can walk through the village, relax on Carmel Beach, drive the nearby coastline, browse galleries, or visit neighboring Monterey and Big Sur. The town’s compact size and picturesque setting make it easy for couples to spend time together without needing a complicated itinerary.",
+        "latitude": 36.5552,
+        "longitude": -121.9233,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 85,
+        "name": "Lake Tahoe",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Lake Tahoe is known for clear alpine water, mountain scenery, beaches, ski resorts, hiking, and year-round outdoor recreation. Visitors can ski in winter, hike in summer, relax beside the lake, take scenic drives, or enjoy restaurants and resort areas around the shoreline. Lake Tahoe works equally well for active couples and travelers who simply want mountain views and a comfortable place to unwind, with dramatically different experiences across the seasons.",
+        "latitude": 39.0968,
+        "longitude": -120.0324,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 86,
+        "name": "Jackson",
+        "state": "Wyoming",
+        "travelType": "couples",
+        "description": "Jackson is known for a Western-style downtown, mountain scenery, wildlife, upscale lodging, and access to Grand Teton National Park. Visitors can explore the town square, drive through Grand Teton, look for wildlife, hike mountain trails, or enjoy restaurants and galleries. Jackson combines rugged scenery with a polished vacation-town atmosphere, giving couples the option to spend the day outdoors and return to a comfortable, lively town in the evening.",
+        "latitude": 43.4799,
+        "longitude": -110.7624,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 87,
+        "name": "Telluride",
+        "state": "Colorado",
+        "travelType": "couples",
+        "description": "Telluride is known for towering mountain scenery, skiing, hiking, waterfalls, festivals, and a compact historic town. Visitors can ride the gondola, ski or hike, explore Main Street, attend seasonal events, or simply enjoy the surrounding San Juan Mountains. Telluride’s dramatic setting and small-town scale make it feel like a true escape, whether couples visit for winter sports, summer adventures, or a quieter mountain getaway.",
+        "latitude": 37.9375,
+        "longitude": -107.8123,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 88,
+        "name": "Park City",
+        "state": "Utah",
+        "travelType": "couples",
+        "description": "Park City is known for ski resorts, mountain scenery, a historic Main Street, restaurants, festivals, and year-round outdoor activities. Visitors can ski or snowboard, hike mountain trails, browse Main Street, enjoy restaurants, or visit during one of the town’s major events. Park City pairs an attractive mountain-town atmosphere with easy access to recreation and comfortable lodging, making it a convenient couples getaway in both snowy winters and mild summers.",
+        "latitude": 40.6461,
+        "longitude": -111.498,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 89,
+        "name": "Sonoma",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Sonoma is known for wine country, historic plazas, farm-to-table food, rolling hills, and a relaxed atmosphere. Visitors can visit wineries, explore the town plaza, enjoy local restaurants, drive through the countryside, or relax at a small inn. Sonoma’s combination of food, scenery, and slower-paced experiences gives couples an easy setting for a trip built around conversation, meals, and exploring together.",
+        "latitude": 38.2919,
+        "longitude": -122.458,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 90,
+        "name": "Cannon Beach",
+        "state": "Oregon",
+        "travelType": "couples",
+        "description": "Cannon Beach is known for Haystack Rock, dramatic Pacific beaches, art galleries, coastal forests, and a charming small-town center. Visitors can walk the beach, explore tide pools, browse galleries, hike nearby coastal trails, or watch storms and sunsets from the shoreline. Cannon Beach has a naturally romantic setting without requiring a luxury itinerary, making it ideal for couples who prefer ocean scenery, cozy lodging, and quiet time outdoors.",
+        "latitude": 45.8918,
+        "longitude": -123.9615,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 91,
+        "name": "Key West",
+        "state": "Florida",
+        "travelType": "couples",
+        "description": "Key West is known for tropical sunsets, historic architecture, ocean activities, colorful streets, and a famously relaxed island atmosphere. Visitors can walk or bike through Old Town, snorkel, sail at sunset, visit historic homes, enjoy seafood, or relax near the water. Key West’s compact layout and lively but easygoing personality make it simple for couples to mix sightseeing, outdoor adventure, and unstructured time together in a setting that feels far from everyday routines.",
+        "latitude": 24.5551,
+        "longitude": -81.78,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 92,
+        "name": "Aspen",
+        "state": "Colorado",
+        "travelType": "couples",
+        "description": "Aspen is known for world-famous skiing, dramatic Rocky Mountain scenery, upscale restaurants, arts, and year-round mountain recreation. Visitors can ski in winter, hike among wildflowers in summer, explore downtown, ride scenic gondolas, or enjoy restaurants and cultural events. Aspen’s combination of outdoor adventure and polished mountain-town comforts makes it a memorable couples destination for travelers willing to spend more for the setting and experience.",
+        "latitude": 39.1911,
+        "longitude": -106.8175,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 93,
+        "name": "Vail",
+        "state": "Colorado",
+        "travelType": "couples",
+        "description": "Vail is known for one of America’s best-known ski resorts, alpine-style villages, mountain trails, restaurants, and scenic gondola rides. Visitors can ski or snowboard, hike during warmer months, stroll through the villages, relax at a spa, or enjoy mountain views over dinner. Vail is designed around the mountain-resort experience, giving couples an easy way to combine active days outdoors with comfortable lodging and relaxed evenings.",
+        "latitude": 39.6403,
+        "longitude": -106.3742,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 94,
+        "name": "Laguna Beach",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Laguna Beach is known for small coves, dramatic coastal cliffs, art galleries, beaches, and a walkable Southern California downtown. Visitors can explore tide pools, relax on the sand, browse galleries, hike coastal trails, or watch sunset from a bluff overlooking the Pacific. Laguna Beach combines a strong arts identity with some of Orange County’s most attractive coastline, creating a scenic couples getaway that feels distinct from nearby larger cities.",
+        "latitude": 33.5427,
+        "longitude": -117.7854,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 95,
+        "name": "Santa Catalina Island",
+        "state": "California",
+        "travelType": "couples",
+        "description": "Santa Catalina Island is known for a Mediterranean-like island setting, ocean views, the small town of Avalon, boating, snorkeling, and hillside scenery. Visitors can arrive by ferry, walk around Avalon, snorkel in clear water, take an island tour, kayak, or relax beside the harbor. Catalina feels like a bigger trip than its short distance from Southern California suggests, making it a memorable escape for couples who want to leave the mainland behind.",
+        "latitude": 33.3879,
+        "longitude": -118.4163,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 96,
+        "name": "Nantucket",
+        "state": "Massachusetts",
+        "travelType": "couples",
+        "description": "Nantucket is known for historic streets, gray-shingled homes, beaches, lighthouses, cycling, and a classic New England island atmosphere. Visitors can bike between beaches, explore the historic town, visit lighthouses, enjoy seafood, or take long walks along the coast. Nantucket’s island setting and preserved character make it a distinctive couples destination, especially for travelers who enjoy coastal scenery, quiet exploration, and a slower vacation pace.",
+        "latitude": 41.2835,
+        "longitude": -70.0995,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 97,
+        "name": "Martha's Vineyard",
+        "state": "Massachusetts",
+        "travelType": "couples",
+        "description": "Martha’s Vineyard is known for beaches, harbor towns, historic cottages, lighthouses, cycling, and a relaxed New England island atmosphere. Visitors can explore towns by bike or car, spend time on the beach, visit lighthouses, browse local shops, or enjoy seafood near the harbor. The island offers several communities with different personalities, giving couples room to explore while keeping the overall trip centered on coastal scenery and an unhurried pace.",
+        "latitude": 41.3805,
+        "longitude": -70.6455,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 98,
+        "name": "Amelia Island",
+        "state": "Florida",
+        "travelType": "couples",
+        "description": "Amelia Island is known for wide Atlantic beaches, historic Fernandina Beach, oak-lined streets, resorts, and a quieter coastal atmosphere. Visitors can relax on the beach, explore the historic downtown, bike coastal trails, take a boat tour, or enjoy seafood near the marina. Amelia Island provides a more peaceful Florida getaway than many larger beach destinations, making it appealing for couples who want coastal scenery without a nonstop entertainment schedule.",
+        "latitude": 30.6697,
+        "longitude": -81.4626,
+        "costLevel": "$$$"
+    },
+    {
+        "id": 99,
+        "name": "Palm Beach",
+        "state": "Florida",
+        "travelType": "couples",
+        "description": "Palm Beach is known for elegant resorts, Atlantic beaches, landmark architecture, gardens, shopping, and a polished South Florida atmosphere. Visitors can walk along the ocean, explore Worth Avenue, visit museums and gardens, enjoy fine dining, or simply relax at a beachfront hotel. Palm Beach is best suited to couples looking for a refined warm-weather escape where beautiful surroundings, comfortable accommodations, and leisurely days matter more than a packed attraction list.",
+        "latitude": 26.7056,
+        "longitude": -80.0364,
+        "costLevel": "$$$$"
+    },
+    {
+        "id": 100,
+        "name": "Door County",
+        "state": "Wisconsin",
+        "travelType": "couples",
+        "description": "Door County is known for small waterfront towns, Lake Michigan scenery, lighthouses, orchards, state parks, and memorable sunsets. Visitors can drive between villages, hike coastal parks, visit lighthouses, browse local shops, kayak, or enjoy a traditional fish boil. Door County’s string of small communities and scenic shoreline makes it ideal for a couples road trip, with enough variety to explore while preserving the relaxed feeling of a lakeside getaway.",
+        "latitude": 45.0522,
+        "longitude": -87.2784,
+        "costLevel": "$$$"
+    }
+]

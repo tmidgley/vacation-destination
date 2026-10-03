@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Vacation Destination helps travelers discover vacation destinations across the United States based on their travel style.">
+
+  <title>Vacation Destination</title>
+
+  <link rel="icon" type="image/svg+xml" href="/vacation-destination/favicon.svg">
+
+  <link href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script type="module" crossorigin src="/vacation-destination/assets/index-D8x-EkHp.js"></script>
+  <link rel="stylesheet" crossorigin href="/vacation-destination/assets/index-C4DuxuwT.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <a href="#" class="logo" id="home-link">
+      Vacation Destination
+    </a>
+
+    <nav aria-label="Main navigation">
+      <button id="saved-nav" type="button">
+        Saved Destinations
+      </button>
+    </nav>
+  </header>
+
+  <main id="app">
+
+    <!-- MAIN VIEW -->
+    <section id="main-view" class="view">
+      <div class="main-content">
+
+        <h1>WHERE SHOULD YOU GO NEXT?</h1>
+
+        <p class="intro-text">
+          Choose your travel style and discover your next vacation.
+        </p>
+
+        <div class="travel-type-grid">
+
+          <button type="button" data-travel-type="family">
+            Family Friendly
+          </button>
+
+          <button type="button" data-travel-type="budget">
+            Low Budget
+          </button>
+
+          <button type="button" data-travel-type="couples">
+            Couples
+          </button>
+
+          <button type="button" data-travel-type="solo">
+            Solo Traveler
+          </button>
+
+          <button type="button" data-travel-type="retired">
+            Retired Traveler
+          </button>
+
+          <button type="button" data-travel-type="surprise">
+            Surprise Me!
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINATION VIEW -->
+    <section id="selector-view" class="view" hidden>
+      <div class="destination-container">
+
+        <!-- DESTINATION HEADER -->
+        <header class="destination-header">
+          <p id="selected-travel-type"></p>
+          <h1 id="destination-name">City, State</h1>
+        </header>
+
+        <!-- PHOTOS -->
+        <section class="destination-photos" aria-label="Destination photos">
+          <div class="photo-carousel">
+
+            <button id="previous-photo" class="photo-preview photo-preview-left" type="button"
+              aria-label="Previous photo">
+              <img id="previous-photo-image" src="" alt="">
+            </button>
+
+            <div id="photo-display">
+              <p>Destination photos will appear here.</p>
+            </div>
+
+            <button id="next-photo" class="photo-preview photo-preview-right" type="button" aria-label="Next photo">
+              <img id="next-photo-image" src="" alt="">
+            </button>
+
+          </div>
+
+          <div id="photo-indicators" class="photo-indicators" aria-label="Photo position"></div>
+        </section>
+
+        <!-- DESTINATION DETAILS -->
+        <section class="destination-details">
+
+          <div class="destination-description">
+            <h2>About This Destination</h2>
+            <p id="destination-description"></p>
+          </div>
+
+          <div class="weather">
+            <h2>Current Weather</h2>
+
+            <div id="weather-display">
+              <p>Weather information will appear here.</p>
+            </div>
+          </div>
+
+          <div class="cost">
+            <h2>Approximate Price Range</h2>
+            <p id="cost-level"></p>
+          </div>
+
+        </section>
+
+        <!-- EXPLORE NEARBY -->
+        <section class="activities">
+          <h2>Explore Nearby</h2>
+
+          <p>
+            Explore attractions, museums, parks, and sights within
+            20 miles of this destination.
+          </p>
+
+          <div id="nearby-map"></div>
+        </section>
+
+        <!-- DESTINATION ACTIONS -->
+        <div class="destination-actions">
+
+          <button id="save-destination" type="button">
+            Save Destination
+          </button>
+
+          <button id="choose-another" type="button">
+            Choose Another
+          </button>
+
+          <button id="start-over" type="button">
+            Start Over
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SAVED DESTINATIONS VIEW -->
+    <section id="saved-view" class="view" hidden>
+      <div class="saved-container">
+
+        <div class="saved-header">
+          <h1>Saved Destinations</h1>
+
+          <button id="clear-saved" type="button">
+            Clear All Saved Destinations
+          </button>
+        </div>
+
+        <p id="saved-empty-message">
+          You haven't saved any destinations yet.
+        </p>
+
+        <div id="saved-destinations"></div>
+
+        <div class="saved-actions">
+          <button id="saved-find-destination" type="button">
+            Find a Destination
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>
+      &copy; <span id="current-year"></span>
+      Vacation Destination
+    </p>
+  </footer>
+
+  <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+
+</body>
+
+</html>
