@@ -151,12 +151,18 @@ function startCarousel() {
 // --------------------
 
 export function displayPhotos(photos) {
+    clearInterval(carouselInterval);
+
     currentPhotos = photos;
     currentPhotoIndex = 0;
 
+    const carousel = document.querySelector(".photo-carousel");
+
     if (currentPhotos.length === 0) {
-        photoDisplay.innerHTML =
-            "<p>No destination photos are available.</p>";
+        carousel.classList.add("carousel-empty");
+
+        photoDisplay.textContent =
+            "Destination photos are currently unavailable.";
 
         previousPhotoButton.hidden = true;
         nextPhotoButton.hidden = true;
@@ -164,6 +170,8 @@ export function displayPhotos(photos) {
 
         return;
     }
+
+    carousel.classList.remove("carousel-empty");
 
     previousPhotoButton.hidden = false;
     nextPhotoButton.hidden = false;
@@ -173,15 +181,15 @@ export function displayPhotos(photos) {
 }
 
 // --------------------
-// BUTTON EVENTS
+// CAROUSEL BUTTONS
 // --------------------
-
-nextPhotoButton.addEventListener("click", () => {
-    showNextPhoto();
-    startCarousel();
-});
 
 previousPhotoButton.addEventListener("click", () => {
     showPreviousPhoto();
+    startCarousel();
+});
+
+nextPhotoButton.addEventListener("click", () => {
+    showNextPhoto();
     startCarousel();
 });

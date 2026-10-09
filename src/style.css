@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* 1. Theme and global styles */
 :root {
   --navy: #0b3954;
   --cream: #fff8e7;
@@ -9,10 +10,6 @@
   --shadow: 0 4px 12px rgb(0 0 0 / 15%);
   --content-width: 900px;
 }
-
-/* --------------------
-   GENERAL
--------------------- */
 
 * {
   box-sizing: border-box;
@@ -39,10 +36,7 @@ button {
   display: none !important;
 }
 
-/* --------------------
-   HEADER
--------------------- */
-
+/* 2. Header and branding */
 .site-header {
   min-height: 80px;
   padding: 1rem 5%;
@@ -54,10 +48,16 @@ button {
 }
 
 .logo {
-  color: var(--white);
-  font-size: 1.35rem;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
 }
 
 .site-header nav button {
@@ -73,26 +73,22 @@ button {
   background-color: var(--gold);
 }
 
-/* --------------------
-   MAIN VIEW
--------------------- */
-
+/* 3. Home and travel selection */
 #main-view {
   min-height: calc(100vh - 150px);
+  padding: 3rem 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1.5rem;
 }
 
 .main-content {
-  width: min(900px, 100%);
+  width: min(var(--content-width), 100%);
   text-align: center;
 }
 
 .main-content h1 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.75rem;
   color: var(--navy);
   font-size: clamp(2rem, 5vw, 3.5rem);
 }
@@ -104,9 +100,19 @@ button {
   line-height: 1.7;
 }
 
+.hero-image {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 1.5rem auto 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
 .travel-type-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
@@ -120,9 +126,7 @@ button {
   box-shadow: var(--shadow);
   font-size: 1.15rem;
   font-weight: 600;
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .travel-type-grid button:hover {
@@ -131,17 +135,14 @@ button {
   transform: translateY(-4px);
 }
 
-/* --------------------
-   DESTINATION VIEW
--------------------- */
-
+/* 4. Selected destination */
 #selector-view {
   padding: 3rem 1.5rem;
 }
 
 .destination-container {
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
@@ -162,19 +163,16 @@ button {
   font-size: 2.5rem;
 }
 
-/* --------------------
-   PHOTO CAROUSEL
--------------------- */
-
+/* 5. Photo carousel */
 .destination-photos {
-  width: min(900px, 100%);
+  width: 100%;
   margin: 2rem auto;
 }
 
 .photo-carousel {
   display: grid;
   grid-template-columns: 12.5% 75% 12.5%;
-  align-items: stretch;
+  align-items: start;
   width: 100%;
   overflow: hidden;
 }
@@ -207,6 +205,10 @@ button {
 }
 
 .photo-preview {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  aspect-ratio: 1 / 2.5;
   padding: 0;
   border: 0;
   overflow: hidden;
@@ -219,9 +221,6 @@ button {
   height: 100%;
   object-fit: cover;
   opacity: 0.65;
-  transition:
-    opacity 0.2s ease,
-    transform 0.2s ease;
 }
 
 .photo-preview:hover img {
@@ -246,10 +245,21 @@ button {
   color: var(--navy);
 }
 
-/* --------------------
-   DESTINATION DETAILS
--------------------- */
+/* The photo carousel expands when photos are unavailable. */
+.photo-carousel.carousel-empty {
+  display: block;
+}
 
+.photo-carousel.carousel-empty #photo-display {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* 6. Destination details, weather and cost */
 .destination-details {
   margin: 3rem 0;
   display: grid;
@@ -265,7 +275,6 @@ button {
 .destination-description {
   grid-column: 1 / -1;
   width: 100%;
-  margin: 0 auto;
   line-height: 1.7;
   text-align: center;
 }
@@ -274,42 +283,26 @@ button {
 .cost {
   width: 100%;
   min-width: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-/* --------------------
-   EXPLORE NEARBY
--------------------- */
-
-.activities {
-  margin: 3rem 0;
-  text-align: center;
-}
-
-.activities>p {
-  margin-bottom: 1.5rem;
-}
-
-/* --------------------
-   WEATHER
--------------------- */
-
-#weather-display {
+#weather-display,
+#cost-level {
   width: 100%;
-  max-width: none;
-  margin: 0 auto;
-  padding: 1.5rem;
-  display: flex;
   flex: 1;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
   background-color: var(--white);
   box-shadow: var(--shadow);
+}
+
+#weather-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .weather-icon {
@@ -336,23 +329,11 @@ button {
   margin: 0.3rem 0;
 }
 
-/* --------------------
-   COST
--------------------- */
-
 #cost-level {
-  width: 100%;
-  max-width: none;
-  margin: 0 auto;
-  padding: 1.5rem;
   display: grid;
-  flex: 1;
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 1.5rem;
-  border-radius: 12px;
-  background-color: var(--white);
-  box-shadow: var(--shadow);
 }
 
 .cost-scale {
@@ -377,10 +358,7 @@ button {
   text-align: center;
 }
 
-/* --------------------
-   EXPLORE NEARBY
--------------------- */
-
+/* 7. Nearby attractions (no map library) */
 .activities {
   margin: 3rem 0;
   text-align: center;
@@ -392,18 +370,60 @@ button {
 
 #nearby-map {
   width: 100%;
-  max-width: 900px;
-  height: 400px;
+  height: auto;
   margin: 1rem auto;
   border-radius: 12px;
-  overflow: hidden;
+  background-color: var(--white);
   box-shadow: var(--shadow);
 }
 
-/* --------------------
-   DESTINATION BUTTONS
--------------------- */
+.attractions-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 24px;
+  align-items: start;
+  list-style: none;
+  padding: 2rem 2.5rem;
+  margin: 0;
+  text-align: left;
+}
 
+.attractions-list li {
+  padding: 4px 0;
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.attractions-list a {
+  color: var(--navy);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.attractions-list a:hover {
+  text-decoration: underline;
+}
+
+/* Loading and error messages */
+#photo-display:not(:has(.photo-card)),
+#nearby-map:not(:has(.attractions-list)) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--navy);
+  font-size: 1rem;
+}
+
+#photo-display:not(:has(.photo-card)) {
+  min-height: 300px;
+  border-radius: 12px;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+/* 8. Destination actions */
 .destination-actions {
   margin: 3rem 0 1rem;
   display: flex;
@@ -420,25 +440,26 @@ button {
   font-weight: 600;
 }
 
-.destination-actions button:hover {
+.destination-actions button:hover:not(:disabled) {
   border-color: var(--gold);
   color: var(--navy);
   background-color: var(--gold);
 }
 
+.destination-actions button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
 
-/* --------------------
-   SAVED DESTINATIONS
--------------------- */
-
+/* 9. Saved destinations */
 #saved-view {
   min-height: calc(100vh - 150px);
   padding: 3rem 1.5rem;
 }
 
 .saved-container {
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
@@ -460,10 +481,37 @@ button {
   text-align: center;
 }
 
-/* --------------------
-   FOOTER
--------------------- */
+.saved-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
+}
 
+.saved-item a {
+  color: var(--navy);
+}
+
+.saved-item a:hover {
+  color: #17658d;
+}
+
+.saved-item button {
+  padding: 0.4rem 0.8rem;
+  border: 0;
+  border-radius: 6px;
+  color: var(--white);
+  background-color: var(--navy);
+}
+
+.saved-item button:hover {
+  color: var(--navy);
+  background-color: var(--gold);
+}
+
+/* 10. Footer and accessibility */
 .site-footer {
   min-height: 70px;
   padding: 1rem;
@@ -479,29 +527,49 @@ button {
   margin: 0;
 }
 
-/* --------------------
-   FOCUS
--------------------- */
-
 button:focus-visible,
-.logo:focus-visible {
+a:focus-visible {
   outline: 3px solid var(--gold);
   outline-offset: 4px;
 }
 
-/* --------------------
-   RESPONSIVE DESIGN
--------------------- */
+/* 11. Destination entrance animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#selector-view {
+  animation: fadeIn 2.5s ease-out 0.3s backwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #selector-view {
+    animation: none;
+  }
+
+  .travel-type-grid button,
+  .photo-preview img {
+    transition: none;
+  }
+}
+
+/* 12. Mobile layout */
 @media (max-width: 650px) {
-
   .site-header {
     min-height: 70px;
     padding: 0.75rem 1rem;
   }
 
-  .logo {
-    font-size: 1rem;
+  .logo img {
+    width: 140px;
   }
 
   .site-header nav button {
@@ -536,10 +604,6 @@ button:focus-visible,
     padding: 2rem 1rem;
   }
 
-  .destination-container {
-    width: 100%;
-  }
-
   .destination-header h1 {
     font-size: 2rem;
   }
@@ -548,8 +612,46 @@ button:focus-visible,
     grid-template-columns: 10% 80% 10%;
   }
 
-  #nearby-map {
-    height: 300px;
+  .photo-preview {
+    height: 100%;
+  }
+
+  .destination-details {
+    grid-template-columns: 1fr;
+  }
+
+  .destination-description {
+    grid-column: 1;
+  }
+
+  .weather-icon {
+    font-size: 4rem;
+  }
+
+  #weather-display {
+    gap: 1rem;
+  }
+
+  .weather-temperature {
+    font-size: 2rem;
+  }
+
+  #cost-level {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+  }
+
+  .cost-scale {
+    font-size: 2rem;
+  }
+
+  .cost-range {
+    font-size: 1.2rem;
+  }
+
+  .attractions-list {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
   }
 
   .destination-actions {
@@ -558,43 +660,5 @@ button:focus-visible,
 
   .destination-actions button {
     width: 100%;
-  }
-
-  .saved-container {
-    width: 100%;
-  }
-
-  .weather-icon {
-    font-size: 4rem;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-  }
-
-  .weather-description {
-    font-weight: 600;
-  }
-
-  .destination-photos,
-  .destination-description,
-  .weather,
-  .cost,
-  .activities {
-    width: 100%;
-    max-width: var(--content-width);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .destination-photos {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .destination-details {
-    grid-template-columns: 1fr;
-  }
-  
-  .destination-description {
-    grid-column: 1;
   }
 }
