@@ -5,16 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description"
-    content="Vacation Destination helps travelers discover vacation destinations across the United States based on their travel style.">
+  <meta name="description" content="Vacation Destination helps travelers discover vacation destinations across the United States based on their travel style.">
+  <meta name="author" content="Travis Midgley">
 
   <title>Vacation Destination</title>
 
-  <link rel="icon" type="image/svg+xml" href="/vacation-destination/favicon.svg">
-
-  <link href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css" rel="stylesheet">
-  <script type="module" crossorigin src="/vacation-destination/assets/index-D8x-EkHp.js"></script>
-  <link rel="stylesheet" crossorigin href="/vacation-destination/assets/index-C4DuxuwT.css">
+  <link rel="icon" type="image/x-icon" href="/vacation-destination/assets/favicon-cdopYBr_.ico">
+  <script type="module" crossorigin src="/vacation-destination/assets/index-DCV4LHso.js"></script>
+  <link rel="stylesheet" crossorigin href="/vacation-destination/assets/index-U7WeuQ_a.css">
 </head>
 
 <body>
@@ -22,7 +20,7 @@
   <!-- HEADER -->
   <header class="site-header">
     <a href="#" class="logo" id="home-link">
-      Vacation Destination
+      <img src="/vacation-destination/assets/logo-Kq1gvBpc.webp" alt="Vacation Destination logo">
     </a>
 
     <nav aria-label="Main navigation">
@@ -43,6 +41,8 @@
         <p class="intro-text">
           Choose your travel style and discover your next vacation.
         </p>
+
+        <img src="/vacation-destination/assets/heroimage-Dt6uaxt0.webp" alt="Explore the USA travel destinations" class="hero-image">
 
         <div class="travel-type-grid">
 
@@ -90,7 +90,7 @@
 
             <button id="previous-photo" class="photo-preview photo-preview-left" type="button"
               aria-label="Previous photo">
-              <img id="previous-photo-image" src="" alt="">
+              <img id="previous-photo-image" src="src/assets/heroimage.png" alt="">
             </button>
 
             <div id="photo-display">
@@ -98,12 +98,12 @@
             </div>
 
             <button id="next-photo" class="photo-preview photo-preview-right" type="button" aria-label="Next photo">
-              <img id="next-photo-image" src="" alt="">
+              <img id="next-photo-image" src="src/assets/heroimage.png" alt="">
             </button>
 
           </div>
 
-          <div id="photo-indicators" class="photo-indicators" aria-label="Photo position"></div>
+          <div id="photo-indicators" class="photo-indicators" role="status" aria-label="Photo position"></div>
         </section>
 
         <!-- DESTINATION DETAILS -->
@@ -168,9 +168,6 @@
         <div class="saved-header">
           <h1>Saved Destinations</h1>
 
-          <button id="clear-saved" type="button">
-            Clear All Saved Destinations
-          </button>
         </div>
 
         <p id="saved-empty-message">
@@ -198,7 +195,6 @@
     </p>
   </footer>
 
-  <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
 
 </body>
 
